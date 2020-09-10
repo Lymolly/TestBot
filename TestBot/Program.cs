@@ -33,7 +33,7 @@ namespace TestBot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "NzUzNjQ5NjczNTgyOTM2MDg0.X1pQ9A.L6xRsc3DqqX_ZW59l-GEP8YCkp4";
+            string token = "Your token here!!!!!!";
             _client.Log += _client_Log;
             await RegisterCommandsAsync();
             await _client.LoginAsync(TokenType.Bot,token);
